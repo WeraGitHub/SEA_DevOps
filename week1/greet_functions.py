@@ -8,3 +8,18 @@ def say_hello(*names):
     formatted_names = ", ".join(names)
     # return the formatted string using interpolation
     return f"Hello World! It's {formatted_names}."
+
+
+def test_my_funtion():
+    print(say_hello())
+    print(say_hello())
+    print(say_hello("Nihal", "Kamil"))
+    print(say_hello("Nihal", "Kamil", "Weronika"))
+
+
+print("my __name__ is", __name__, "I am the greet_functions file")
+
+
+if __name__ == "__main__":
+    test_my_funtion()
+    print(__name__)
